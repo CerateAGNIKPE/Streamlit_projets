@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np 
 import os 
 import random 
-from projet_st.mask_display import Display_choice
+import projet_st.mask_display 
 
 train_folder_path = 'projet_st/train_images'
 #test_folder_path = 'test_images'
