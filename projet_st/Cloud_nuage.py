@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np 
-import matplotlib.pyplot as pyplot
+import matplotlib.pyplot as plt
 import os 
 from mask_display import Display_choice
 import random 
