@@ -99,8 +99,8 @@ if page == pages[1]:
         st.write(f"Total number of images: {22184}")
         st.write(f"Number of unique image names: {5546}")
     elif chapter == chapters[2]:
-        st.image('label.jpg')
-        st.image('nb_label.jpg')
+        st.image('projet_st/label.jpg')
+        st.image('projet_st/nb_label.jpg')
 
     # page : Show some images & masks
    
