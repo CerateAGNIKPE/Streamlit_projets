@@ -79,7 +79,7 @@ if page == pages[0]:
         """
     )
 
-    st.image('target output.png')
+    st.image('projet_st/target output.png')
 if page == pages[1]:
 
     st.set_option('deprecation.showPyplotGlobalUse', False)
