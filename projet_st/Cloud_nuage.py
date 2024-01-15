@@ -7,7 +7,7 @@ import random
 train_folder_path = 'train_images'
 test_folder_path = 'test_images'
 
-train = pd.read_csv("train.csv")
+train = pd.read_csv("projet_st/train.csv")
 train_copy = train.copy()
 train['image'] = train['Image_Label'].apply(lambda x: x.split('_')[0])
 train['label'] = train['Image_Label'].apply(lambda x: x.split('_')[1])
