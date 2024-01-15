@@ -4,8 +4,8 @@ import numpy as np
 import os 
 import random 
 
-train_folder_path = 'train_images'
-test_folder_path = 'test_images'
+train_folder_path = 'projet_st/train_images'
+#test_folder_path = 'test_images'
 
 train = pd.read_csv("projet_st/train.csv")
 train_copy = train.copy()
