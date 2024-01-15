@@ -1,5 +1,3 @@
-conda uninstall matplotlib
-conda install -c conda-forge matplotlib
 
 import numpy as np
 import pandas as pd
