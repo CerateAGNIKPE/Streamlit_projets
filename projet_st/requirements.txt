@@ -1,2 +1,2 @@
-cv2
+opencv-python-headless
 matplotlib==3.2.2
