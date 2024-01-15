@@ -103,5 +103,13 @@ if page == pages[1]:
         st.image('projet_st/label.jpg')
         st.image('projet_st/nb_label.jpg')
 
-   
+    # page : Show some images & masks
+    elif chapter == chapters[3] :
+            display_option = st.selectbox(label = "Display images & masks", 
+                                options = ['Display_four_simple_mask_multi_images', 'Display_multiple_masks_multi_images',
+                                            'Display_four_simple_bbox_multi_images', 'Display_multiple_bboxes_multi_images'
+                                            ])
+            if st.checkbox("Get a new image") : 
+                random.shuffle(train_image_files) # get ramdom images
+            st.pyplot(Display_choice(display_option, train_image_files))
        
